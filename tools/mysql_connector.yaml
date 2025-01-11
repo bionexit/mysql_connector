@@ -7,10 +7,10 @@ identity:
     pt_BR: mysql_connector
 description:
   human:
-    en_US: A tool for connect and querying a mySQL database.
+    en_US: A tool for connecting and querying a mySQL database.
     zh_Hans: 一个用于链接查询 MySQL 数据库的工具.
-    pt_BR: A tool for connect and querying a mySQL database.
-  llm: A tool for connect and querying a mySQL database.
+    pt_BR: A tool for connecting and querying a mySQL database.
+  llm: A tool for connecting and querying a mySQL database.
 parameters:
   - name: mysql_password
     type: secret-input

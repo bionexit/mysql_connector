@@ -31,7 +31,7 @@ class MySQLConnectorTool(Tool):
                 cursor.execute(query)
                 results = cursor.fetchall()
                 if len(results) > 0:
-                    output = {"data":results}
+                    output = {"data":results,"length":len(results)}
                     yield self.create_json_message(output)
                 else:
                     yield self.create_text_message("Query returned no results")
