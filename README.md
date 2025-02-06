@@ -1,10 +1,4 @@
-## mysql_connector
+## Guide
+A plugin for [dify](https://github.com/langgenius/dify) to communicate with mysql database.
 
-**Author:** bion_wang
-**Version:** 0.0.1
-**Type:** extension
-
-### Description
-
-
-
+[dify plugins reference](https://docs.dify.ai/plugins/introduction)
