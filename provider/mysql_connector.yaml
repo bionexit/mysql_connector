@@ -7,11 +7,10 @@ identity:
   description:
     en_US: A tool for connecting and  querying a MySQL database.
     zh_Hans: 一个用于链接查询 MySQL 数据库的工具。
-  icon: icon.svg
+  icon: database-svgrepo-com.svg
   tags:
     - utilities
     - business
-    
 tools:
   - tools/mysql_connector.yaml
 extra:
